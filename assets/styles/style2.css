@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+header{
+    height: 15vh;
+    background-color: rgba(81, 81, 81, 0.541);
+    position: sticky; 
+    top: 0;
+}
+.estiloancor{
+    margin: 5vh;
+}
+nav a:hover{
+    color: #F79517;
+}
+nav a{
+    margin:50px;
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+    
+}
+.fondoindex{
+    margin: 0;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoindex1{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 10vh;
+    margin-top: 2vh;
+}
+.mainindex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem; 
+    }
+
+.titutloeimagen{
+    background-image: url(../images/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70vw;
+    height: 30vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #F79517; 
+    
+}
+.estilo-titulos{
+    background-color: rgba(0, 0, 0, 0.32);
+
+}
+.tituloindex{
+    font-size: 50px;
+    margin-bottom: 25px;
+    border: black solid;
+    border-radius: 5px;
+}
+.subtitulo2{
+    margin-bottom: 15px;
+text-align: center;
+font-size: 30px;
+
+}
+
+.adentro-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F79517;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.imagenindex1{
+    display: none;
+}
+
+.divindex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+}
+.subtitulo3{
+    background-color: rgba(0, 0, 0, 0.32);
+    color: #F79517;
+
+}
+.parrafoindex1{
+  background-color: rgba(0, 0, 0, 0.32);
+  color: white;
+  
+ }
+.section1{
+    margin-top: 5vw;
+    width: 500px;
+    height: 350px;
+background-image: url(../images/gym-1.jpg);
+object-fit: cover;
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+background-size: cover;
+background-position: center;
+}
+.imag2index{
+    display: none;
+}
+/* estilo about */
+.contenedorimgabout{
+    margin-top: 5rem;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+.parrafoimg{
+    width: 10rem;
+}
+.titlesabout{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tituloaboutus{
+    background-color: rgba(81, 81, 81, 0.541); 
+    color: #F79517;
+    border: black solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.tituloaboutus:hover{
+    color: rgb(229, 229, 229);
+
+}
+.subtituloabout{
+    background-color: rgba(81, 81, 81, 0.541);
+    color: #F79517;
+    border: black solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.subtituloabout:hover{
+    color: rgb(229, 229, 229);
+    
+
+}
+.h3about{
+    padding: 5px;
+    background-color: rgba(81, 81, 81, 0.541);
+display: flex;
+justify-content: center;
+color: #F79517;
+border: black solid;
+    border-radius: 10px;
+}
+.ancorcontacto{
+    color: #F79517;
+
+}
+.h3about:hover{
+    color: rgb(229, 229, 229);
+
+}
+.img1about{
+    border-radius:10px ;
+    border-bottom:#F79517 solid 10px ;
+    border-right: #F79517 solid 10px;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.parrafosabout{
+    width: 20vw;
+    height: 15vw;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.32);
+border-radius: 6px;
+font-size: 18px;
+}
+/* estilo de contactoA/*  */ 
+.imgcontacto{
+    display: none;
+}
+.titlescontacto{
+    margin-top: 6rem;
+    background-image: url(../images/guys.jpg);
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    border-radius: 10px;
+}
+.titulocontacto{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #F79517;
+    background-color: rgba(81, 81, 81, 0.541);
+
+}
+.subtitulocontacto{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #F79517;
+    background-color: rgba(81, 81, 81, 0.541);
+
+}
+.img-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorcontacto{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+
+}
+.h3-parrafo{
+    width:100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 15px;
+}
+.h3-contacto{
+    color: #F79517;
+}
+
+ table,th,tr,td{
+    border:black solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    height: 8vw;
+    width:60vw
+    
+}
+.tabla-estilo{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+caption{
+    margin-bottom: 2vw;
+    font-size: 20px;
+}
+.schedule-titulo{
+    margin-top: 5vw;
+    text-align: center;
+    color: #F79517;
+    font-size: 20px;
+    height: 5rem;
+    font-size: 35px;
+}
+th{
+    color: #F79517;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.titulobenefits{
+margin-top: 4vw;
+text-align: center;
+color: #F79517;
+}
+.contenedorbenefits{
+    display: flex;
+    flex-direction: column;
+}
+.img1benefits{
+    width: 25vw;
+    height: 25vw;
+    background-size: cover;
+    margin-top: 5vw;
+    border: black solid 2px;
+    border-radius: 3vh;
+}
+.img1-ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.cajabenefits{
+    width: 35vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+}
+.listas{
+    margin-top: 4vw;
+}
+.h2fit{
+    color: #F79517;
+}
+td{
+    background-color: #f7961761;
+}

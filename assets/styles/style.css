@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 15vh;
+    background-color: rgba(81, 81, 81, 0.541);
+    position: sticky;
+    top: 0;
+}
+.estiloancor{
+    margin: 5vh;}
+nav a{
+    margin:50px;
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+    border-radius: 10px;
+}
+
+.fondoindex{
+    margin: 0;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-between;
+}
+nav a:hover{
+    color: #F79517; 
+    
+}
+.logoindex1{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 10vh;
+    margin-top: 2vh;
+}
+.tituloindex{
+    
+    margin-top: 7vh;
+    text-align: center;
+    color: #F79517;
+}
+.subtitulo2{
+    color: #F79517;
+    text-align: center;
+    margin-top: 2vh;
+}
+.adentro-boton{
+    display: none;
+    
+}
+.imagenindex1{
+    border: black solid 2px;
+    border-radius: 3vh;
+    width: 50%;
+    height: 10%;
+    margin-left: 58vh;
+    margin-top: 7vh;
+    object-fit: contain;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imag2index{
+    border: black solid 2px;
+    border-radius: 3vh;
+    width: 80vh;
+    height: 60vh;
+    margin-top: 10vh;
+    object-fit: cover;
+}
+.subtitulo3{
+    color: #F79517;
+    margin-top: 25vh;
+    font-size: 50px;
+}
+.footer{display: none;}
+.parrafoindex1{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+/* aca empieza el estilo de about
+ */
+ .titlesabout{
+    text-align: center;
+ }
+ .tituloaboutus{
+    margin-top: 7vh;
+    color: #F79517;
+ }
+ .subtituloabout{
+    margin-top: 2vh;
+    color: #F79517;
+ }
+ .sectionaboutus{
+    text-align: end; 
+    margin-right: 20vw; 
+ }
+ .contenedorimgabout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .h3about{
+    color: #F79517;
+    display: flex;
+    justify-content: end;
+    margin-right:20rem;
+ }
+ .parrafoimg{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+ .img1about{
+    width: 300px;
+    height: 300px;
+    margin-left: 15vw;
+    border: black solid 2px;
+    border-radius: 3vh;
+    object-fit: cover;
+    margin-top: 2vw;
+ }
+ .img2about{
+    width: 300px;
+    height: 300px;
+    margin-left: 15vw;
+    margin-top: 10vw;
+    border: black solid 2px;
+    border-radius: 3vh;
+    object-fit: cover;
+ }
+ .img3about{
+    width: 300px;
+    height: 300px;
+    margin-left: 15vw;
+    margin-top: 10vw;
+    border: black solid 2px;
+    border-radius: 3vh;
+    object-fit: cover;
+ }
+ .parrafosabout{
+margin-left: 5vw;
+text-align: center;
+ }
+/*  empieza el estilo de contacto */
+.titlescontacto{
+    text-align: center;
+}
+.titulocontacto{
+    margin-top: 7vh;
+    color: #F79517;
+}
+.subtitulocontacto{
+    color: #F79517;
+    margin-top: 2vh;
+}
+.contenedorcontacto{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.imgcontacto{
+    width: 800px;
+    height: 500px;
+    margin-top: 7vh;
+    object-fit: cover;
+    border: black solid 2px;
+    border-radius: 3vh;
+}
+.h3contacto{
+    margin-top: 5vw;
+    color: #F79517;
+}
+.informacioncontacto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+.ancorcontacto{
+    color: #F79517;
+
+}
+.h3-contacto{
+    color: #F79517;
+}
+.h3-p{
+    margin-top: 5rem;
+   
+}
+table,th,tr,td{
+    border:black solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    height: 8vw;
+    width:60vw
+    
+}
+.tabla-estilo{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+caption{
+    margin-bottom: 2vw;
+    font-size: 20px;
+}
+.schedule-titulo{
+    margin-top: 5vw;
+    text-align: center;
+    color: #F79517;
+    font-size: 20px;
+    height: 5rem;
+    font-size: 35px;
+}
+th{
+    color: #F79517;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.titulobenefits{
+margin-top: 4vw;
+text-align: center;
+color: #F79517;
+}
+.contenedorbenefits{
+    display: flex;
+    flex-direction: column;
+}
+.img1benefits{
+    width: 25vw;
+    height: 25vw;
+    background-size: cover;
+    margin-top: 5vw;
+    border: black solid 2px;
+    border-radius: 3vh;
+    
+
+}
+.img1-ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+.cajabenefits{
+    width: 35vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+}
+.listas{
+    margin-top: 4vw;
+}
+.h2fit{
+    color: #F79517;
+}
+    td{
+        background-color: #f7961761;
+    }
