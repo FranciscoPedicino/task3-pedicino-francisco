@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAFLLE</title>
+    <link rel="shortcut icon" href="../images/together.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sassy+Frass&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="fondoindex">
+          <a href="../../index.html">HOME</a>
+          <a href="../pages/aboutus.html">ABOUT US</a>
+          <a href="../pages/contact.html">CONTACT</a>
+          <a href="../pages/schedule.html">SCHEDULE</a>
+          <a href="../pages/benefits.html">BENEFITS</a>
+          <a href="#">RAFFLE</a>
+        </nav>
+          <img
+            class="logoindex1"
+            src="../images/logo.png"
+            alt="logo del gym"
+          />
+    </header>
+    <main>
+        <section class="h2-raflle">
+            <h2 class="tilulos-raflle">Raffle</h2>
+            <p class="p-raflle"> Every month in this section you can participate in a raffle</p>
+        </section>
+        <section class="h1-raflle">
+            <h1 class="tilulos-raflle">participate in our raflle for a month of personalized traimig.</h1>
+        </section>
+        <div class="todo-raflle">
+        <div class="caja-imgs">
+            <img  class="img-raflle" src="../images/image-3.jpg" alt="dos personas haciendo ejercicios ">
+            <img class="img-raflle" src="../images/image-2.jpg" alt="mujer en una maquina">
+        </div> 
+        <div class="formulario">    
+        <form action="./show_data.html">
+        <div class="div-formulario">
+            <label class="naranja" for="nombre">first name </label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div class="div-formulario"> 
+            <label  class="naranja" for="apellido">last name</label>
+            <input type="text" name="apellidos" id="apellido">
+        </div>
+        <div class="div-formulario">
+            <label  class="naranja" for="correo-electronico"> email</label>
+            <input type="email" name="correos" id="correo-electronico">
+        </div>
+        <div class="div-formulario">
+            <label  class="naranja" for="genero">choose you gender:</label>
+            <select name="genero" id="genero">
+            <option value=""> choose you gender</option>
+            <option value="masc">male</option>
+            <option value="fem">female</option>
+            <option value="otr">other</option>
+        </select>
+        </div>
+        <div class="div-formulario">
+            <label  class="naranja" for="pais">country:</label>
+            <select name="pais" id="pais">
+            <option value=""> country</option>
+            <option value="arg">argentina</option>
+            <option value="chi">chile</option>
+            <option value="col">colombia</option>
+        </select>
+        </div>
+        <p class="payment-raflle"> payment options:</p>
+        <div class="div-formulario">
+            <input type="radio" name="payment" id="cash" value="cash ">
+            <label for="cash">cash</label>
+        </div>
+        <div class="div-formulario">
+            <input type="radio" name="payment" id="credit" value="credit ">
+            <label for="credit">credit cars</label>
+        </div>
+        <div class="div-formulario"> 
+            <input type="radio" name="payment" id="debit" value="debit ">
+            <label for="debit">debit cars</label>
+        </div>
+    
+            <p class="payment-raflle">services</p>
+            <textarea class="caja-services" name="services" id="sevices" cols="30" rows="10"></textarea>
+            <label  class="naranja"  for="acepto">i accepts terms and conditions</label>
+            <input type="radio" name="terminos" id="acepto">
+        <input type="submit">
+    </form>
+</div>
+</div>
+</main>
+        <footer>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244969.69052901026!2d-151.9053133529945!3d-16.391710280754225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76bdbc53dc9fa52b%3A0x9bef76bb168bc559!2sBora-Bora%2C%20Polinesia%20Francesa!5e0!3m2!1ses-419!2sar!4v1678982870917!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </footer>
+    </body>

@@ -3,24 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
+   
 }
+
 header{
+    min-width: 100%;
     height: 15vh;
     background-color: rgba(81, 81, 81, 0.541);
-    position: sticky; 
-    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
-.estiloancor{
-    margin: 5vh;
+.nav-color{
+    color: #F79517;
 }
+
+
 nav a:hover{
     color: #F79517;
 }
 nav a{
-    margin:50px;
+    width: 100%;
+    margin:16px;
     text-decoration: none;
-    color: rgb(229, 229, 229);
-    
+    color: rgb(229, 229, 229);    
 }
 .fondoindex{
     margin: 0;
@@ -45,6 +52,8 @@ nav a{
 
 .titutloeimagen{
     background-image: url(../images/image-1.jpg);
+    border: black solid;
+    border-radius:5px ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,12 +115,14 @@ font-size: 30px;
  }
 .section1{
     margin-top: 5vw;
-    width: 500px;
-    height: 350px;
+    width: 50%;
+    height: 60vh;
 background-image: url(../images/gym-1.jpg);
+border: black solid;
+    border-radius:5px ;
 object-fit: cover;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 padding: 1rem;
 background-size: cover;
 background-position: center;
@@ -203,10 +214,12 @@ font-size: 18px;
 }
 .titlescontacto{
     margin-top: 6rem;
+    border: black solid;
+    border-radius:5px ;
     background-image: url(../images/guys.jpg);
-    width: 900px;
-    height: 400px;
-    object-fit: cover;
+    width: 90%;
+    height: 80vh;
+    object-fit:contain;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,14 +231,12 @@ font-size: 18px;
     font-size: 50px;
     color: #F79517;
     background-color: rgba(81, 81, 81, 0.541);
-
 }
 .subtitulocontacto{
     margin-bottom: 20px;
     font-size: 30px;
     color: #F79517;
     background-color: rgba(81, 81, 81, 0.541);
-
 }
 .img-titulos{
     display: flex;
@@ -238,7 +249,6 @@ font-size: 18px;
     align-items: center;
     justify-content: space-around;
     margin-top: 4rem;
-
 }
 .h3-parrafo{
     width:100%;
@@ -254,7 +264,8 @@ font-size: 18px;
 }
 
  table,th,tr,td{
-    border:black solid 1px;
+    border: black solid;
+    
     border-collapse: collapse;
     text-align: center;
     height: 8vw;
@@ -281,6 +292,10 @@ caption{
 th{
     color: #F79517;
     background-color: rgba(0, 0, 0, 0.281);
+}
+/* estilo benefits */
+main {
+    height: fit-content;
 }
 .titulobenefits{
 margin-top: 4vw;
@@ -320,4 +335,168 @@ border-radius: 15px;
 }
 td{
     background-color: #f7961761;
+}
+/* estilo riflle */
+
+.h1-raflle{
+    text-align: center;
+}
+.todo-raflle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.formulario{
+    background-color: rgba(81, 81, 81, 0.317);
+   height: fit-content;
+    width: 50vh;
+    border: black solid 1px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.div-formulario{
+    margin: 1rem;
+
+}
+.img-raflle{
+    border: black solid;
+    border-radius:5px ;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw; 
+}
+.legend{
+    width: 13rem;
+    text-align: center;
+}
+
+.tilulos-raflle{
+    color: #F79517;
+}
+
+footer{
+width: 100%;
+height: 100%;
+padding: 10px;
+}
+.mapa{
+    height: 15rem;
+    width: 15rem;
+}
+.payment-raflle{
+    text-align: center;
+    color: #F79517;
+}
+.h2-raflle{
+    text-align: center;
+}
+.naranja{
+    color: #F79517;
+}
+
+@media (min-width:320px) and (max-width: 767px){
+header{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    margin: 2px;
+}
+.titutloeimagen{
+    height: fit-content;
+}
+.divindex{
+    height: fit-content;
+    font-size: 12px
+}
+.contenedorimgabout{
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+}
+.img1about{
+    width: 100%;
+    height: 60%;
+    border: none;
+}
+.parrafosabout{
+    font-size: 10px;
+    height: fit-content;
+    width: 100%;
+    background-color: #F79517;
+}
+.parrafoimg{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+    border: black solid 1px; 
+    border-radius: 12px;
+}
+main{
+    height: fit-content;
+}
+.h3-parrafo{
+    font-size: 10px;
+    height: fit-content;
+    padding: 1vh;
+    margin: 1vh;
+}
+.titlescontacto{
+    text-align: center;
+    font-size: 20px;
+}
+.titulobenefits{
+    font-size: 15px;
+}
+.h2fit{
+    font-size: 15px;
+}
+.img1-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1benefits{
+    display: flex;
+    width: 80%;
+    height: 60%;
+}
+
+.p-raflle{
+    font-size: 10;
+}
+.tilulos-raflle{
+    font-size: 15px;
+}
+.todo-raflle{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapa{
+    width: 50%;
+    height: 50%;
+}
+
 }
